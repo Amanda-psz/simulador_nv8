@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="simulador_nivel8" namespace="simulador_nivel8.Data.Models">
+	<class name="simulador_nivel8.Data.Models.Produto">
+		<id name="Id" column="id">
+			<generator class="identity"/>
+		</id>
+		<property name="Nome" column="nome_da_peca" />
+		<property name="Fabricante" column="fabricante" />
+		<property name="TipoVeiculo" column="tipo_veiculo" />
+		<property name="Categoria" column="categoria" />
+		<property name="PrecoCompra" column="preco_compra" />
+		<property name="PrecoVenda" column="preco_venda" />
+	</class>
+</hibernate-mapping>
