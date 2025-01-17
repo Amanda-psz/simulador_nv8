@@ -4,11 +4,11 @@
 		<id name="Id" column="id">
 			<generator class="identity"/>
 		</id>
-		<property name="Nome" column="nome_da_peca" />
-		<property name="Fabricante" column="fabricante" />
-		<property name="TipoVeiculo" column="tipo_veiculo" />
-		<property name="Categoria" column="categoria" />
-		<property name="PrecoCompra" column="preco_compra" />
-		<property name="PrecoVenda" column="preco_venda" />
+		<property name="nome_da_peca" column="nome_da_peca" />
+		<property name="fabricante" column="fabricante" />
+		<property name="tipo_veiculo" column="tipo_veiculo" />
+		<property name="categoria" column="categoria" />
+		<property name="preco_compra" column="preco_compra" />
+		<property name="preco_venda" column="preco_venda" />
 	</class>
 </hibernate-mapping>
